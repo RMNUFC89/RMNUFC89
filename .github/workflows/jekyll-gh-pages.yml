@@ -51,3 +51,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+        
+- name: Easol Theme Upload
+  # You may pin to the exact commit or the version.
+  # uses: easolhq/theme-upload@09c7880dcce615af4341dfb2e3a73d9bad138af6
+  uses: easolhq/theme-upload@1.0.0-alpha
